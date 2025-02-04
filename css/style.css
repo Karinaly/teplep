@@ -235,3 +235,7 @@ h3 {
   color: rgba(47, 53, 63, 0.7);
   font-family: "Liter";
 }
+
+.about {
+  font-family: "IBM Plex Mono";
+}
