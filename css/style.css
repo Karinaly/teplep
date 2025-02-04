@@ -11,6 +11,11 @@ header {
   width: 1920px;
 }
 
+.top{
+  border-bottom: 1px solid white;
+  width: 1920px;
+  height: 119px;
+}
 nav {
   width: 614px;
   height: 23px;
@@ -21,6 +26,10 @@ nav {
 
 ul {
   list-style-type: none;
+  width: 614px;
+  height: 23px;
+  margin: 0;
+  padding: 0;
 }
 
 #logo {
