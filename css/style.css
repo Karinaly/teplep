@@ -227,11 +227,14 @@ h3 {
   font-weight: 400;
 }
 .didesni {
-  font-size: 32px;
+  font-size: 2em;
   color: #2f353f;
+  font-family: "IBM Plex Mono";
+  font-weight: bold;
 }
 
 .mazesni {
-  font-size: 30px;
+  font-size: 2em;
   color: rgba(47, 53, 63, 0.7);
+  font-family: "Liter";
 }
