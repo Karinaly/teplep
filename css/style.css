@@ -12,17 +12,16 @@ header {
 }
 
 nav {
-width: 614px;
-height: 23px;
-top: 50px;
-left: 705px;
-position: absolute;
-
+  width: 614px;
+  height: 23px;
+  top: 50px;
+  left: 705px;
+  position: absolute;
 }
 
- ul{
+ul {
   list-style-type: none;
- }
+}
 
 #logo {
   width: 204px;
@@ -40,7 +39,6 @@ position: absolute;
   top: 48px;
   left: 1479px;
 }
-
 
 input {
   color: white;
