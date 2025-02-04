@@ -16,9 +16,9 @@ nav {
   width: 1920px;
   border-bottom: 1px solid white;
 }
- ul{
+ul {
   list-style-type: none;
- }
+}
 #logo {
   width: 204px;
   height: 63px;
@@ -239,4 +239,8 @@ h3 {
   font-size: 2em;
   color: rgba(47, 53, 63, 0.7);
   font-family: "Liter";
+}
+
+.about page {
+  font-family: "IBM Plex Mono";
 }
