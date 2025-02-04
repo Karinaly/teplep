@@ -16,7 +16,9 @@ nav {
   width: 1920px;
   border-bottom: 1px solid white;
 }
-
+ ul{
+  list-style-type: none;
+ }
 #logo {
   width: 204px;
   height: 63px;
