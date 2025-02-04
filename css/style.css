@@ -12,13 +12,18 @@ header {
 }
 
 nav {
-  height: 119px;
-  width: 1920px;
-  border-bottom: 1px solid white;
+width: 614px;
+height: 23px;
+top: 50px;
+left: 705px;
+position: absolute;
+
 }
+
  ul{
   list-style-type: none;
  }
+
 #logo {
   width: 204px;
   height: 63px;
@@ -36,16 +41,6 @@ nav {
   left: 1479px;
 }
 
-.MENU {
-  width: 614px;
-  height: 23px;
-  position: absolute;
-  top: 50px;
-  left: 705px;
-  gap: 120px;
-  display: flex;
-  justify-content: space-between;
-}
 
 input {
   color: white;
