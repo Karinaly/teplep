@@ -16,20 +16,27 @@ header {
   width: 1920px;
   height: 119px;
 }
+
 nav {
   width: 614px;
   height: 23px;
   top: 50px;
   left: 705px;
+  gap: 120px;
   position: absolute;
+  display: flex;
+  justify-content: space-between;
+
 }
 
 ul {
   list-style-type: none;
-  width: 614px;
-  height: 23px;
-  margin: 0;
-  padding: 0;
+
+}
+
+li {
+  display: inline-block;
+
 }
 
 #logo {
