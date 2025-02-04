@@ -15,28 +15,21 @@ header {
   border-bottom: 1px solid white;
   width: 1920px;
   height: 119px;
+  display: flex;
 }
 
 nav {
-  width: 614px;
-  height: 23px;
-  top: 50px;
-  left: 705px;
-  gap: 120px;
-  position: absolute;
-  display: flex;
-  justify-content: space-between;
-
+  width: 620px;
+  height: 25px;
+ 
 }
 
 ul {
   list-style-type: none;
-
 }
 
 li {
   display: inline-block;
-
 }
 
 #logo {
@@ -54,6 +47,18 @@ li {
   height: 23px;
   top: 48px;
   left: 1479px;
+  color: white;
+  font-family: "M PLUS Rounded 1c";
+}
+
+#EN {
+background: none;
+color: white;
+border: 1px solid white;
+border-radius: 5px;
+left: 42px;
+width: 20px;
+height: 20px;
 }
 
 input {
