@@ -1,0 +1,55 @@
+.about {
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 60px;
+  margin-left: 150px;
+  margin-bottom: 30px;
+}
+.tekstas_about {
+  font-family: "M PLUS Rounded 1c";
+  letter-spacing: 1px;
+  color: rgba(47, 53, 63, 0.7);
+  font-weight: 400;
+  font-size: 1.8em;
+  height: 200px;
+  width: 752px;
+  margin: 0;
+  margin-left: 150px;
+  margin-bottom: 400px;
+}
+.rutuliai {
+  width: 100%;
+  margin: auto;
+  margin-bottom: 500px;
+}
+.mazesni {
+  font-family: "M PLUS Rounded 1c";
+  letter-spacing: 1px;
+  color: rgba(47, 53, 63, 0.7);
+  font-weight: 400;
+  font-size: 1.2em;
+  margin-left: 900px;
+  margin-right: 305px;
+  margin-bottom: 100px;
+}
+.draugeliai {
+  margin: auto;
+}
+.support {
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 3em;
+  margin-left: 150px;
+  margin-bottom: 30px;
+  width: 540px;
+  height: 180px;
+}
+.melynas {
+  width: 1800px;
+  height: 757px;
+  background: linear-gradient(66deg, #2e2bd0 -67.89%, #7876f2 125.28%);
+  border-radius: 70px;
+  margin: 0;
+  margin-left: 30px;
+  margin-right: 30px;
+}
