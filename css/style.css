@@ -27,7 +27,7 @@ ul {
   list-style-type: none;
 }
 
-li {
+.text {
   display: inline-block;
 }
 
@@ -241,7 +241,7 @@ h2 {
 
 h3 {
   color: #2e2bd0;
-  font-size: 2.5em;
+  font-size: 2.6em;
   font-family: "IBM Plex Mono";
   font-weight: 400;
 }
@@ -260,4 +260,50 @@ h3 {
 
 .about {
   font-family: "IBM Plex Mono";
+}
+
+#why {
+  width: 726px;
+  height: 108px;
+  margin-top: 158px;
+  margin-left: 150px;
+}
+
+.container8 {
+  border: 1px solid #2F353F80;
+  border-radius: 70px;
+  height: 459px;
+  width: 1116px;
+  margin-top: 416px;
+  margin-left: 654px;
+  padding:60px;
+  
+}
+
+#paragraph8 {
+  height: 270px;
+  width: 1116px;
+  margin: 0;
+}
+
+#close-knit{
+  width: 400px;
+  height: 39px;
+  font-weight: 500;
+  margin-bottom: 70px;
+  
+}
+
+.sidebar {
+height: 503px;
+width: 305px;
+margin-top: 416px;
+margin-left: 149px;
+font-size: 32px;
+}
+
+.border {
+  border-left: 3px solid #2F353F4D ;
+  padding-left: 50px;
+  height: 103px;
 }
