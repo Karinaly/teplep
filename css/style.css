@@ -419,3 +419,17 @@ grid-row: 1/2;
   height: 280px;
   border-radius: 360px;
 }
+
+#technology{
+justify-content: end;
+}
+
+.grafikas{
+  width:1622px;
+  height: 238px;
+  align-items: end;
+}
+
+.technologija{
+  display: flex;
+}
