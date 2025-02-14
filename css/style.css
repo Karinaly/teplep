@@ -168,9 +168,7 @@ h2 {
   margin-left: 150px;
   margin-top: 200px;
   font-size: 60px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
   margin-left: 150px;
   padding-bottom: 70px;
   margin-bottom: 0;
@@ -319,9 +317,97 @@ margin-right: 150px;
   border-left: 3px solid #2F353F4D ;
   padding-left: 50px;
   height: 103px;
+  line-height: 3;
+  color: rgba(47, 53, 63, 0.3);
 }
 
 .border:hover{
   border-left: 5px solid  #2E2BD0;
   color: #2E2BD0;
+}
+
+.dezes{
+  display: grid;
+  grid-template-columns: repeat(3, 540px);
+  grid-template-rows: repeat(2, 220px);
+  margin-left: 150px;
+ 
+}
+
+.deze1{
+grid-column: 1/2;
+grid-row: 1/2;
+
+}
+
+.deze2{
+  grid-column:2/3 ;
+  grid-row: 1/2;
+  border: 1px solid rgba(144, 147, 152, 1);
+  border-radius: 40px;
+  padding: 40px 40px 53px 40px;
+}
+
+.deze3 {
+  grid-column:3/4 ;
+  grid-row: 1/2;
+  border: 1px solid rgba(144, 147, 152, 1);
+  border-radius: 40px;
+  padding: 40px 40px 53px 40px;
+}
+.deze4{
+  grid-column:1/2 ;
+  grid-row: 2/3;
+  border: 1px solid rgba(144, 147, 152, 1);
+  border-radius: 40px;
+  padding: 40px 40px 53px 40px;
+}
+
+.deze5{
+  grid-column:2/3 ;
+  grid-row: 2/3;
+  border: 1px solid rgba(144, 147, 152, 1);
+  border-radius: 40px;
+  padding: 40px 40px 53px 40px;
+
+}
+
+.deze6{
+  grid-column:3/4 ;
+  grid-row: 2/3;
+  border-radius: 40px;
+  width: 440px;
+  height: 250px;
+  background-color: rgba(120, 118, 242, 1);
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 50px 30px 53px 50px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.maziausi{
+  font-size: 1.5em;
+  color: rgba(47, 53, 63, 0.7);
+  font-family: "Liter";
+}
+
+.kitoks{
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 1.6em;
+  margin-top: 0;
+}
+
+#purple {
+  height:108px;
+  width: 447px;
+  line-height: 2;
+  color: rgba(255, 255, 255, 0.7);
+  margin-top: 40px;
+}
+
+#diff{
+  height: 78px;
+  width: 400px;
+  margin: 71px 60px;
 }
