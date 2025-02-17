@@ -527,9 +527,10 @@ border-top: 1px solid rgba(47, 53, 63, 1);
       grid-column: 2/3;
       grid-row: 1/2;
      margin: 0;
-      color: rgba(255, 255, 255, 0.7);
+      color: rgba(255, 255, 255, 0.767);
       justify-self: start;
       align-self: center;
+      font-size: 24px;
     }
 
     [class^="input"]{
@@ -544,6 +545,10 @@ border-top: 1px solid rgba(47, 53, 63, 1);
       width: 700px;
       justify-self: start;
       align-self: center;
+      
+    }
+    ::placeholder{
+      color: rgba(255, 255, 255, 0.7);
     }
 
     .input1{
@@ -569,6 +574,25 @@ grid-row: 3/4;
     .input5{
       grid-column: 2/3;
       grid-row: 4/5;
+color: transparent;
+display: none;
+          }
+
+          label{
+            grid-column: 2/3;
+            grid-row: 4/5;
+            font-family: Neue Machina;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 48px;
+            letter-spacing: 0%;
+            font-family: "IBM Plex Mono";
+            border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+            height: 62px;
+            width: 700px;
+            justify-self: start;
+            align-self: center;
+            color: rgba(255, 255, 255, 0.7);
           }
 
     #Submit{
@@ -581,9 +605,29 @@ grid-row: 3/4;
       color:rgba(46, 43, 208, 1);
       font-size: 20px;
      background-color: white;
+     justify-self: start;
+      align-self: center;
+      font-weight: 400;
     }
 
     #Download{
       grid-column: 2/3;
       grid-row: 2/3;
+      height: 60px;
+      width: 305px;
+      border-radius: 10px;
+      border: 1px solid white;
+      color: white;
+      font-size: 20px;
+      font-family:"IBM Plex Mono" ;
+      justify-self: start;
+      align-self: center;
+    }
+
+    #strong{
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+text-decoration: underline;
+color: white;
     }
