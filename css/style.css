@@ -443,6 +443,7 @@ margin-bottom: 80px;
   height: 238px;
   margin-top: 150px;
   margin-left: 150px;
+  background-image: url(../images/linija.png);
 }
 
 .technologija{
@@ -638,7 +639,7 @@ color: white;
         background-repeat: no-repeat;
         background-size: cover;
          height: 867px;
-         width: auto;
+         width: 100%;
       }
 
       nav{
@@ -693,10 +694,10 @@ color: white;
       font-family: "IBM Plex Mono";
       font-weight: 400;
       margin-left:20px;
-      margin-top: 100px;
+      margin-top: 80px;
       font-size: 1.9em;
       font-weight: 400;
-      padding-bottom: 50px;
+      padding-bottom: 30px;
       margin-bottom: 0;
       letter-spacing: -1px;
     }
@@ -788,4 +789,340 @@ color: white;
       color: rgba(47, 53, 63, 0.7);
       font-family: "Liter";
     }
+
+    #why {
+      width: 335px;
+      height: 108px;
+      margin-left: 20px;
+      margin-bottom: 50px;
+      margin-top: 0;
+    }
+
+    .sidebar {
+      height: auto;
+      width: 335px;
+      font-size: 0.8em;
+      margin-left: 20px;
+      margin-right: 0px;
+      font-family: "IBM Plex Mono";
+      }
+      
+      .ul_border{
+        margin:0;
+        width:100%;
+      }
+
+      .ul_border li{
+        display: inline-block;
+      }
+      
+      .border{
+        border-top: 3px solid #2F353F4D ;
+        border-left:none ;
+        padding-left: 11px;
+        padding-right: 11px;
+        width: auto;
+        line-height: 3;
+        color: rgba(47, 53, 63, 0.3);
+      }
+      
+      .border:hover{
+        border-top: 5px solid  #2E2BD0;
+        border-left: none;
+        color: #2E2BD0;
+      } 
+
+      .container8 {
+        border: 1px solid #2F353F80;
+        border-radius: 50px;
+        height: 285px;
+        width: auto;
+        padding:30px;
+      display: inline-block;
+      margin-left: 20px;
+      margin-right: 20px;
+      
+      }
+      
+      #paragraph8 {
+        height: 270px;
+        width: 275px;
+        margin: 0;
+      }
+      
+      #close-knit{
+        width: 275px;
+        height: 39px;
+        font-weight: 500;
+        margin-bottom: 10px;
+      }
+
+      .dezes{
+        display: grid;
+        grid-template-columns: repeat(1,335px);
+        grid-template-rows: repeat(6, 78px);
+        margin-left: 20px;
+      }
+      
+      .deze1{
+      grid-column: 1/2;
+      grid-row: 1/2;
+      padding: 20px;
+      }
+      
+      .deze2{
+        grid-column:1/2;
+        grid-row: 2/3;
+        border: 1px solid rgba(144, 147, 152, 1);
+        border-radius: 20px;
+        padding: 15px;
+      }
+      
+      .deze3 {
+        grid-column:1/2 ;
+        grid-row: 3/4;
+        border: 1px solid rgba(144, 147, 152, 1);
+        border-radius: 20px;
+        padding: 15px;
+      }
+      .deze4{
+        grid-column:1/2 ;
+        grid-row: 4/5;
+        border: 1px solid rgba(144, 147, 152, 1);
+        border-radius: 20px;
+        padding: 15px;
+      }
+      
+      .deze5{
+        grid-column:1/2 ;
+        grid-row: 5/6;
+        border: 1px solid rgba(144, 147, 152, 1);
+        border-radius: 20px;
+        padding: 15px;
+      
+      }
+      
+      .deze6{
+        grid-column:1/2;
+        grid-row: 6/7;
+        border-radius: 20px;
+        width: auto;
+        height: 78px;
+        background-color: rgba(120, 118, 242, 1);
+        margin-top: 15px;
+        margin-left: 0;
+        padding: 15px;
+        color: rgba(255, 255, 255, 1);
+        margin-bottom: 50px;
+      }
+      
+      .maziausi{
+        font-size: 0.9em;
+        color: rgba(47, 53, 63, 0.7);
+        font-family: "Liter";
+        margin: 0;
+      }
+
+      .dink{
+        display: none;
+      }
+      
+      .kitoks{
+        font-family: "IBM Plex Mono";
+        font-weight: 400;
+        font-size: 1em;
+        margin-top: 0;
+        margin-bottom: 5px;
+        width: 295px;
+      }
+
+      #purple {
+        height:auto;
+        width: 275px;
+        line-height: 2;
+        color: rgba(255, 255, 255, 0.7);
+        margin-top: 30px;
+      }
+      
+      #diff{
+        height: 78px;
+        width: 335px;
+        margin: 1px 0px;
+      }
+      
+      #LEARN{
+        color: black;
+        margin: 80px 0px 0px 108px;
+      font-size: 1em;
+      border: solid rgb(0, 0, 0) 1px;
+      width: 120px;
+      height: 120px;
+      border-radius: 360px;
+      background: none;
+      }
+
+      #technology{
+        margin-top: 0;
+        margin-left: 20px;
+        margin-right:20px ;
+        height: 110px;
+        width: auto;
+        margin-bottom: 30px;
+        }
+        
+        .grafikas{
+          width:250px;
+          height: 450px;
+          margin-top: 0;
+          margin-left: 20px;
+          background-image: url(../images/Technologies.png);
+          background-size: contain;
+        }
+        
+        .technologija{
+          height: 680px;
+        }
+        
+        .industry{
+          display: none;
+        }
+
+        /* cia reikia iterpti is about page */
+
+        .violetinis{
+          width:335px;
+          height: 601px;
+          margin-left: 25px;
+          margin-top: 10px;
+          padding: 20px;
+          border-radius:30px;
+          background: linear-gradient(66deg, #2e2bd0 -67.89%, #7876f2 125.28%);
+          display: grid;
+         grid-template-columns: repeat(1, 1fr);
+         grid-template-rows: repeat(11, 50px);
+         box-sizing: border-box;
+    
+        }
+    
+        h1{
+          grid-column: 1/2;
+          grid-row: 1/3;
+          font-family: "IBM Plex Mono";
+          font-weight: 400;
+          font-size: 2em;
+          color: white;
+          height: auto;
+          width:300px ;
+         margin: 0; 
+         letter-spacing: 0%;
+        }
+    
+        .vp{
+          grid-column: 1/2;
+          grid-row: 3/5;
+         margin: 0;
+          color: rgba(255, 255, 255, 0.767);
+          justify-self: start;
+          align-self: center;
+          font-size: 0.8em;
+        }
+    
+        [class^="input"]{
+          font-family: Neue Machina;
+          font-weight: 400;
+          font-size: 0.8em;
+          line-height: 48px;
+          letter-spacing: 0%;
+          font-family: "IBM Plex Mono";
+          border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+          height: 50px;
+          width: 300px;
+          justify-self: start;
+          align-self: flex-start;
+          background: none;
+        }
+        ::placeholder{
+          color: rgba(255, 255, 255, 0.7);
+        }
+    
+        .input1{
+          grid-row: 6/7;
+          grid-column: 1/2;
+        }
+    
+        .input2{
+          grid-row: 7/8;
+          grid-column: 1/2;
+        }
+    
+        .input3{
+          grid-row: 8/9;
+          grid-column: 1/2;
+        }
+    
+        .input4{
+          grid-column: 1/2;
+    grid-row: 9/10;
+        }
+    
+        .input5{
+          grid-column: 1/2;
+          grid-row: 10/11;
+    color: transparent;
+    display: none;
+              }
+    
+              label{
+                grid-column: 1/2;
+                grid-row: 10/11;
+                font-weight: 400;
+                font-size: 0.8em;
+                line-height: 48px;
+                font-family: "IBM Plex Mono";
+                border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+                height: 50px;
+                width: 300px;
+                justify-self: start;
+                align-self: start;
+                color: rgba(255, 255, 255, 0.7);
+              }
+    
+        #Submit{
+          grid-column: 1/2;
+          grid-row: 11/12;
+          height: 30px;
+          width: 155px;
+          border-radius: 5px;
+          padding: 7px ;
+          color:rgba(46, 43, 208, 1);
+          font-size: 0.9em;
+         background-color: white;
+         justify-self: start;
+          align-self: end;
+          font-weight: 400;
+        }
+    
+        #Download{
+          grid-column: 1/2;
+          grid-row: 5/6;
+          height: 30px;
+          width: 155px;
+          border-radius: 5px;
+          border: 1px solid white;
+          color: white;
+          font-size: 0.7em;
+          font-family:"IBM Plex Mono" ;
+          justify-self: start;
+          align-self:end;
+          letter-spacing: normal;
+          background: none;
+        }
+    
+        #strong{
+    font-weight: 600;
+    font-size: 0.9em;
+    line-height: normal;
+    text-decoration: underline;
+    color: white;
+        }
   }
